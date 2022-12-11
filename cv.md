@@ -49,3 +49,20 @@ Self and time management. Team work. Ready to develop and improve my skills. Pro
 ## Interests
 Film photography
 Literature
+
+## Code examples 
+
+`
+scriptEl.addEventListener('click', () => {
+  const scriptCodeEl = document.querySelector('#script-code');
+  const svgEl = document.querySelector('#script-svg');
+              
+  if (scriptCodeEl.classList.contains('hidden')) {
+    scriptCodeEl.classList.remove('hidden');
+    svgEl.style.transform = 'rotate(270deg)'; 
+  } else {
+    scriptCodeEl.classList.add('hidden');
+    svgEl.style.transform = 'rotate(90deg)'; 
+  }
+});
+`
